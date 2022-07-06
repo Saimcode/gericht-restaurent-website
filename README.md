@@ -8,7 +8,7 @@ This is a simple and modern style restaurent website built with React JS and Tai
 
 ### 📍 Dependencies
 * Node.js - You will need to have node js installed on your device. If you don't have it yet, install it from [here](https://nodejs.org/en/).
-* Tailwind CSS - [Click Here](Tailwind CSS Guide: https://tailwindcss.com/docs/guides/create-react-app) to view Tailwind CSS Guide.
+* Tailwind CSS - [Click Here](https://tailwindcss.com/docs/guides/create-react-app) to view Tailwind CSS Guide.
 
 ### 📍 Installation & Setup Instructions
 
