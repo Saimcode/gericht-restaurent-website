@@ -1,0 +1,16 @@
+.app__gallery-images_container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+}
+
+.app__gallery-images_container::-webkit-scrollbar {
+    display: none;
+}
+
+.app__gallery-images_card:hover img {
+    opacity: .35;
+}
+
+.app__gallery-images_card:hover .gallery__image-icon {
+    opacity: 1;
+}
