@@ -20,7 +20,7 @@ import award03 from '../assets/award03.png';
 import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
-import gericht from '../assets/gericht.png';
+import Streetbites from '../assets/Streetbites.png';
 
 export default {
   bg,
@@ -45,5 +45,5 @@ export default {
   award05,
   sign,
   quote,
-  gericht,
+  Streetbites,
 };

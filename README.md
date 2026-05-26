@@ -1,8 +1,8 @@
-# Gericht | Restaurent Website built with React JS
+# Streetbites | Restaurent Website built with React JS
 
 This is a simple and modern style restaurent website built with React JS and Tailwind CSS. It is a one page website with many different sections available which can be navigated via the navbar on top. This app is also fully mobile responsive.
 
-![Gericht | Restaurent Website built with React JS](https://github.com/Saimcode/gericht-restaurent-website/blob/main/Restaurent-App-Thumbnail.png?raw=true)
+![Streetbites | Restaurent Website built with React JS](https://github.com/Saimcode/Streetbites-restaurent-website/blob/main/Restaurent-App-Thumbnail.png?raw=true)
 
 ## 🔧 Getting Started
 
@@ -14,8 +14,8 @@ This is a simple and modern style restaurent website built with React JS and Tai
 
 #### 1. Download this repository or clone it via Git using the commands below:
 
-    $ git clone https://github.com/Saimcode/gericht-restaurent-website.git
-    $ cd gericht-restaurent-website
+    $ git clone https://github.com/Saimcode/Streetbites-restaurent-website.git
+    $ cd Streetbites-restaurent-website
     
 #### 2. Install `node_modules` and other dependencies:
 
@@ -33,7 +33,7 @@ It's a web-based program so you would need the following:
 
 * Any OS (depending on your device).
 * A browser to run the application.
-* Link to the website: [Gericht | Restaurent Website](https://unique-donut-af9ce4.netlify.app/)
+* Link to the website: [Streetbites | Restaurent Website](https://unique-donut-af9ce4.netlify.app/)
 
 ## ❔ Help
 

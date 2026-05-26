@@ -19,7 +19,7 @@ const Footer = () => (
       </div>
 
       <div className="app__footer-links_logo flex-one my-8 mx-0 xl:m-4 text-left lg:text-center">
-        <img src={images.gericht} alt="footer_logo" className='w-4/5 mobile:w-[210px] mb-3 lg:mx-auto'/>
+        <img src={images.Streetbites} alt="footer_logo" className='w-4/5 mobile:w-[210px] mb-3 lg:mx-auto'/>
         <p className="p__opensans lg:text-center text-left">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
         <img src={images.spoon} className="spoon__img lg:mx-auto" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons mt-2 flex flex-row lg:justify-center">
@@ -39,7 +39,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright mt-12">
-      <p className="p__opensans">2021 Gericht. All Rights reserved.</p>
+      <p className="p__opensans">2021 Streetbites. All Rights reserved.</p>
     </div>
 
   </div>
