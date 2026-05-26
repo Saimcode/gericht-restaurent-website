@@ -25,7 +25,7 @@ const Navbar = () => {
             className='z-nav fixed w-full flex justify-between items-center text-primary-white bg-transparent backdrop-blur-2xl sm:px-8 sm:py-4 p-4'>
             <div className='flex justify-start items-center'>
                 <img
-                    src={images.gericht}
+                    src={images.Streetbites}
                     alt="app logo"
                     className="h-auto w-24 sm:w-40 2xl:w-52"/>
             </div>

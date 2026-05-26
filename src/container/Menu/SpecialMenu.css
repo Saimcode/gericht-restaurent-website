@@ -1,0 +1,164 @@
+/* Main Section */
+.app__specialMenu {
+  flex-direction: column;
+}
+
+.app__specialMenu-title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* MENU CONTAINER */
+.app__specialMenu-menu {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+/* LEFT FOOD SECTION */
+.app__specialMenu-menu_food {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* RIGHT DRINK SECTION */
+.app__specialMenu-menu_drinks {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* MENU HEADING */
+.app__specialMenu-menu_heading {
+  font-family: var(--font-base);
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--color-white);
+  margin-bottom: 1rem;
+}
+
+/* MENU ITEMS LIST */
+.app__specialMenu_menu_items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+/* MENU IMAGE */
+.app__specialMenu-menu_img {
+  width: 410px;
+  margin: 0 2rem;
+}
+
+.app__specialMenu-menu_img img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ========================= */
+/* 🔥 FILTER BUTTONS */
+/* ========================= */
+
+.menu-filter {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.menu-filter button {
+  padding: 10px 18px;
+  border: 1px solid #DCCA87;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.menu-filter button:hover {
+  background: #DCCA87;
+  color: #000;
+  transform: translateY(-3px);
+}
+
+.menu-filter button:active {
+  transform: scale(0.95);
+}
+
+/* ========================= */
+/* 🍔 MENU CARD DESIGN */
+/* ========================= */
+
+.app__menu-card {
+  background: #111;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.app__menu-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* ========================= */
+/* BUTTON (already used in project) */
+/* ========================= */
+
+.custom__button {
+  background: #DCCA87;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 600;
+}
+
+.custom__button:hover {
+  transform: scale(1.05);
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+
+@media screen and (max-width: 1150px) {
+  .app__specialMenu-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app__specialMenu-menu_img {
+    margin: 2rem 0;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__specialMenu-menu_heading {
+    font-size: 24px;
+  }
+
+  .menu-filter {
+    gap: 8px;
+  }
+
+  .menu-filter button {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+}
