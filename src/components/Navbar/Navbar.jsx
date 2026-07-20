@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {GiHamburgerMenu} from 'react-icons/gi';
 import {MdOutlineRestaurantMenu} from 'react-icons/md';
 
@@ -20,9 +20,14 @@ const Navbar = () => {
         }
     }
 
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
     return (
         <nav
-            className='z-nav fixed w-full flex justify-between items-center text-primary-white bg-transparent backdrop-blur-2xl sm:px-8 sm:py-4 p-4'>
+            className={`z-nav fixed w-full flex justify-between items-center text-primary-white duration-300 sm:px-8 sm:py-4 p-4 ${isFixed ? 'bg-primary-black backdrop-blur-2xl' : 'bg-transparent'}`}>
             <div className='flex justify-start items-center'>
                 <img
                     src={images.gericht}
@@ -114,7 +119,7 @@ const Navbar = () => {
                             </li>
                             <li
                                 className='font-CormorantUpright m-4 cursor-pointer text-primary-golden text-4xl text-center hover:text-primary-white' onClick={() => {setToggleMenu(false)}}>
-                                <a href='#contact'>Contant</a>
+                                <a href='#contact'>Contact</a>
                                 <img
                                     src={images.spoon}
                                     alt="spoon underline"
